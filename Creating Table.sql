@@ -1,22 +1,22 @@
-CREATE TABLE Employee(
-	employeeNo INT PRIMARY KEY,
-	employeeName VARCHAR(10),
+CREATE Table EMP(
+	empNo INT PRIMARY KEY,
+	eName VARCHAR(10),
 	job VARCHAR(10),
-	manager INT,
+	mgr INT,
 	hireDate DATE,
-	salary INT,
-	commission INT,
-	departmentNo INT
-);
+	sal INT,
+	comm INT,
+	deptNo INT
+)
 
-CREATE TABLE Department(
-	departmentNo INT PRIMARY KEY,
-	departmentName VARCHAR(10),
-	location VARCHAR(10)
-);
+CREATE TABLE DEPT(
+	deptNo INT PRIMARY KEY,
+	dName VARCHAR(10),
+	loc VARCHAR(10)
+)
 
-CREATE TABLE SalaryGrade(
+CREATE Table SALGRADE(
 	grade INT PRIMARY KEY,
-	lowSalary INT, 
-	highSalary INT
-);
+	loSal INT, 
+	hiSal INT
+)

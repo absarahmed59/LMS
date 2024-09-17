@@ -1,14 +1,14 @@
-INSERT INTO SalaryGrade(grade, lowSalary, highSalary)
-VALUES(1, 700, 1200);
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(1, 700, 1200);
 
-INSERT INTO SalaryGrade(grade, lowSalary, highSalary)
-VALUES(2, 1201, 1400);
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(2, 1201, 1400);
 
-INSERT INTO SalaryGrade(grade, lowSalary, highSalary)
-VALUES(3, 1401, 2000);
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(3, 1401, 2000);
 
-INSERT INTO SalaryGrade(grade, lowSalary, highSalary)
-VALUES(4, 2001, 3000);
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(4, 2001, 3000);
 
-INSERT INTO SalaryGrade(grade, lowSalary, highSalary)
-VALUES(5, 3001, 9999);
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(5, 3001, 9999);

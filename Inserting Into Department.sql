@@ -1,11 +1,11 @@
-INSERT INTO Department(departmentNo, departmentName, location)
-VALUES(10, 'Accounting', 'New York');
+Insert Into DEPT(deptNo, dName, loc)
+Values(10, 'Accounting', 'New York');
 
-INSERT INTO Department(departmentNo, departmentName, location)
-VALUES(20, 'Research', 'Dallas');
+Insert Into DEPT(deptNo, dName, loc)
+Values(20, 'Research', 'Dallas');
 
-INSERT INTO Department(departmentNo, departmentName, location)
-VALUES(30, 'Sales', 'Chicago');
+Insert Into DEPT(deptNo, dName, loc)
+Values(30, 'Sales', 'Chicago');
 
-INSERT INTO Department(departmentNo, departmentName, location)
-VALUES(40, 'Operations', 'Boston');
+Insert Into DEPT(deptNo, dName, loc)
+Values(40, 'Operations', 'Boston');
