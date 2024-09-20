@@ -1,0 +1,112 @@
+CREATE Table EMP(
+	empNo INT PRIMARY KEY,
+	eName VARCHAR(10),
+	job VARCHAR(10),
+	mgr INT,
+	hireDate DATE,
+	sal INT,
+	comm INT,
+	deptNo INT
+);
+
+CREATE TABLE DEPT(
+	deptNo INT PRIMARY KEY,
+	dName VARCHAR(10),
+	loc VARCHAR(10)
+);
+
+CREATE Table SALGRADE(
+	grade INT PRIMARY KEY,
+	loSal INT, 
+	hiSal INT
+);
+
+create table bbc(name CHAR(20) primary key , 
+region CHAR(20), 
+area BIGINT, 
+population BIGINT, 
+gdp BIGINT
+);
+
+
+insert into bbc values('Afghanistan', 'South Asia', 652225, 26000000, null);
+insert into bbc values('Albania', 'Europe', 28728, 3200000, 6656000000);
+insert into bbc values('Algeria', 'Middle East', 2400000, 32900000, 75012000000);
+insert into bbc values('Andorra', 'Europe', 468, 64000, null);
+insert into bbc values('Bangladesh', 'South Asia', 143998, 152600000, 67144000000);
+insert into bbc values('United Kingdom', 'Europe', 242514, 59600000, 2022824000000);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7839,'King', 'President', NULL, '1981-11-17', 5000, NULL, 10);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7698,'Blake', 'Manager', 7839, '1981-05-01',2850, NULL, 30);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7782,'Clark', 'Manager', 7839, '1981-06-09',2450, NULL, 10);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7566,'Jones', 'Manager', 7839, '1981-04-02',2975, NULL, 20);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7654,'Martin', 'Salesman', 7698, '1981-09-28',1250, 1400, 30);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7499,'Allen', 'Salesman', 7698, '1981-02-20',1600, 300, 30);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7844,'Turner', 'Salesman', 7698, '1981-09-08',1500, 0, 30);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7900,'James', 'Clerk', 7698, '1981-12-03', 950, NULL, 30);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7521,'Ward', 'Salesman', 7698, '1981-02-22', 1250, 500, 30);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7902,'Ford', 'Analyst', 7566, '1981-12-03', 3000, NULL, 20);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7369,'Smith', 'Clerk', 7902, '1980-12-17', 800, NULL, 20);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7788,'Scott', 'Analyst', 7566, '1982-12-09', 3000, NULL, 20);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7876,'Adams', 'Clerk', 7788, '1983-01-12', 1100, NULL, 20);
+
+INSERT INTO EMP(empNo, eName, job, mgr, hireDate, sal, comm, deptNo)
+Values(7934,'Miller', 'Clerk', 7782, '1982-01-23', 1300, NULL, 10);
+
+
+
+
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(1, 700, 1200);
+
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(2, 1201, 1400);
+
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(3, 1401, 2000);
+
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(4, 2001, 3000);
+
+Insert Into SALGRADE(grade, loSal, hiSal)
+Values(5, 3001, 9999);
+
+
+
+Insert Into DEPT(deptNo, dName, loc)
+Values(10, 'Accounting', 'New York');
+
+Insert Into DEPT(deptNo, dName, loc)
+Values(20, 'Research', 'Dallas');
+
+Insert Into DEPT(deptNo, dName, loc)
+Values(30, 'Sales', 'Chicago');
+
+Insert Into DEPT(deptNo, dName, loc)
+Values(40, 'Operations', 'Boston');
+
