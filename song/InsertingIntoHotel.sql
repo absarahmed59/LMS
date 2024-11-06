@@ -1,0 +1,11 @@
+Insert Into Hotel(hotelNo, hotelName, city) Values (1, 'Fine Star', 'Faisalabad');
+Insert Into Hotel(hotelNo, hotelName, city) Values (2, 'Pearl', 'Lahore');
+Insert Into Hotel(hotelNo, hotelName, city) Values (3, 'Hotel Grand', 'Faisalabad');
+Insert Into Hotel(hotelNo, hotelName, city) Values (4, 'Faletti Grand', 'Lahore');
+Insert Into Hotel(hotelNo, hotelName, city) Values (5, 'Grand Enclave', 'Lahore');
+Insert Into Hotel(hotelNo, hotelName, city) Values (6, 'Ortus', 'Islamabad');
+Insert Into Hotel(hotelNo, hotelName, city) Values (7, 'Avari Xpress', 'Faisalabad');
+Insert Into Hotel(hotelNo, hotelName, city) Values (8, 'Royal Swiss', 'Lahore');
+Insert Into Hotel(hotelNo, hotelName, city) Values (9, 'La Maison', 'Islamabad');
+Insert Into Hotel(hotelNo, hotelName, city) Values (10, 'Silk Hotel', 'Faisalabad');
+Insert Into Hotel(hotelNo, hotelName, city) Values (11, 'Prime Hotel', 'Lahore');

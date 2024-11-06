@@ -1,0 +1,44 @@
+Insert Into Room(hotelNo, roomNo, type, price) Values (1, 72, 'Single', 1275);
+Insert Into Room(hotelNo, roomNo, type, price) Values (1, 64, 'Double', 2800);
+Insert Into Room(hotelNo, roomNo, type, price) Values (1, 77, 'Single', 1275);
+Insert Into Room(hotelNo, roomNo, type, price) Values (1, 54, 'Family', 4000);
+Insert Into Room(hotelNo, roomNo, type, price) Values (2, 172, 'Single', 1745);
+Insert Into Room(hotelNo, roomNo, type, price) Values (2, 164, 'Double', 3100);
+Insert Into Room(hotelNo, roomNo, type, price) Values (2, 177, 'Single', 1745);
+Insert Into Room(hotelNo, roomNo, type, price) Values (2, 154, 'Family', 5500);
+Insert Into Room(hotelNo, roomNo, type, price) Values (2, 159, 'Family', 5500);
+Insert Into Room(hotelNo, roomNo, type, price) Values (3, 964, 'Double', 2300);
+Insert Into Room(hotelNo, roomNo, type, price) Values (3, 977, 'Single', 1150);
+Insert Into Room(hotelNo, roomNo, type, price) Values (3, 954, 'Family', 3600);
+Insert Into Room(hotelNo, roomNo, type, price) Values (4, 759, 'Family', 7400);
+Insert Into Room(hotelNo, roomNo, type, price) Values (4, 764, 'Double', 4600);
+Insert Into Room(hotelNo, roomNo, type, price) Values (4, 777, 'Single', 2350);
+Insert Into Room(hotelNo, roomNo, type, price) Values (5, 664, 'Double', 3350);
+Insert Into Room(hotelNo, roomNo, type, price) Values (5, 677, 'Single', 1700);
+Insert Into Room(hotelNo, roomNo, type, price) Values (5, 654, 'Family', 6300);
+Insert Into Room(hotelNo, roomNo, type, price) Values (5, 659, 'Family', 6300);
+
+Insert Into Room(hotelNo, roomNo, type, price) Values (6, 1572, 'Single', 1275);
+Insert Into Room(hotelNo, roomNo, type, price) Values (6, 1564, 'Double', 2800);
+Insert Into Room(hotelNo, roomNo, type, price) Values (6, 1577, 'Single', 1275);
+Insert Into Room(hotelNo, roomNo, type, price) Values (6, 1554, 'Family', 4000);
+Insert Into Room(hotelNo, roomNo, type, price) Values (7, 3172, 'Single', 1745);
+Insert Into Room(hotelNo, roomNo, type, price) Values (7, 3164, 'Double', 3100);
+Insert Into Room(hotelNo, roomNo, type, price) Values (7, 3177, 'Single', 1745);
+Insert Into Room(hotelNo, roomNo, type, price) Values (7, 3154, 'Family', 5500);
+Insert Into Room(hotelNo, roomNo, type, price) Values (7, 3159, 'Family', 5500);
+Insert Into Room(hotelNo, roomNo, type, price) Values (8, 2964, 'Double', 2300);
+Insert Into Room(hotelNo, roomNo, type, price) Values (8, 2977, 'Single', 1150);
+Insert Into Room(hotelNo, roomNo, type, price) Values (8, 2954, 'Family', 3600);
+Insert Into Room(hotelNo, roomNo, type, price) Values (9, 4759, 'Family', 7400);
+Insert Into Room(hotelNo, roomNo, type, price) Values (9, 4764, 'Double', 4600);
+Insert Into Room(hotelNo, roomNo, type, price) Values (9, 4777, 'Single', 2350);
+Insert Into Room(hotelNo, roomNo, type, price) Values (10, 8664, 'Double', 3350);
+Insert Into Room(hotelNo, roomNo, type, price) Values (10, 8677, 'Single', 1700);
+Insert Into Room(hotelNo, roomNo, type, price) Values (10, 8654, 'Family', 6300);
+Insert Into Room(hotelNo, roomNo, type, price) Values (10, 8659, 'Family', 6300);
+Insert Into Room(hotelNo, roomNo, type, price) Values (11, 14664, 'Double', 3350);
+Insert Into Room(hotelNo, roomNo, type, price) Values (11, 14677, 'Single', 1700);
+
+Select * FROM Room;
+
